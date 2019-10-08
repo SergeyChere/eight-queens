@@ -2,14 +2,10 @@ import java.util.*;
 
 public class Test {
 
-    public static final int length = 8;
     public static final ArrayList<ArrayList<Integer>> list = fillArray();
-    public static ArrayList<ArrayList<ArrayList<Integer>>> mainArrayList = new ArrayList<>();
 
     public static void main(String[] args) {
         swappingWithoutMoving(list);
-        System.out.println("------------------------------- END");
-        System.out.println(" array: "+Arrays.deepToString(mainArrayList.toArray()));
     }
 
     /*
@@ -27,50 +23,42 @@ public class Test {
         int counter = 0;
         boolean flag = false;
 
-        for (int i = 0; i<list.size(); i++) {
-            System.out.println("------------------------------- "+i);
-            for (int j = 0; j<list.size(); j++) {
-                int num;
-                if (j == list.size()-1) {
-                    j = 0;
-                    flag = true;
-                }
-                if (j == i) {
-                    j++;
-                }
-                num = list.get(i).get(1);
-                list.get(i).remove(1);
-
-                list.get(i).add(list.get(j).get(1));
-                list.get(j).remove(1);
-
-                list.get(j).add(num);
-                if (checkingAvailable(list)) {
-                    if (!checkingContainsInMainArray(list)) {
-                        // Adding to main array is not working
-                        mainArrayList.add(list);
-                        System.out.println(mainArrayList.size());
+        for (int e = 0; e<list.size(); e++) {
+            System.out.println("---------------- "+e);
+            for (int i = 0; i<list.size(); i++) {
+                System.out.println("------------------------------- "+i);
+                for (int j = 0; j<list.size(); j++) {
+                    int num;
+                    if (j == list.size()-1 && i == list.size()-1) {
+                        break;
                     }
-                    System.out.println(" answer: "+Arrays.deepToString(list.toArray()));
-                } else {
-                    System.out.println("variant: "+Arrays.deepToString(list.toArray()));
-                }
-                if (flag) {
-                    break;
-                }
-            }
-            flag = false;
-            counter=counter++;
-        }
-    }
+                    else if (j == i) {
+                        j++;
+                    }
+                    else if (j > list.size()) {
+                        j = 0;
+                        flag = true;
+                    }
+                    num = list.get(i).get(1);
+                    list.get(i).remove(1);
 
-    public static boolean checkingContainsInMainArray(ArrayList<ArrayList<Integer>> list) {
-        for (ArrayList<ArrayList<Integer>> arrayList: mainArrayList) {
-            if (arrayList.equals(list)) {
-                return true;
+                    list.get(i).add(list.get(j).get(1));
+                    list.get(j).remove(1);
+
+                    list.get(j).add(num);
+                    if (checkingAvailable(list)) {
+                        System.out.println(" answer: "+Arrays.deepToString(list.toArray()));
+                    } else {
+//                    System.out.println("variant: "+Arrays.deepToString(list.toArray()));
+                    }
+                    if (flag) {
+                        break;
+                    }
+                }
+                flag = false;
+                counter=counter++;
             }
         }
-        return false;
     }
 
     public static boolean checkingAvailable(ArrayList<ArrayList<Integer>> list) {
