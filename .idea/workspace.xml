@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b08d9dda-4e5e-416a-9c24-70afb44a7af4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CheckingTwoElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindingFirstElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyArrayListComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Andrey/contact-book" beforeDir="false" afterPath="$PROJECT_DIR$/../Andrey/contact-book" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ED/java-1h-angular-fullstack" beforeDir="false" afterPath="$PROJECT_DIR$/../ED/java-1h-angular-fullstack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pasha/Contact_project" beforeDir="false" afterPath="$PROJECT_DIR$/../Pasha/Contact_project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../coffe-shop-sandbox/coffee-shop-sandbox" beforeDir="false" afterPath="$PROJECT_DIR$/../coffe-shop-sandbox/coffee-shop-sandbox" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../coffee-shop-final/coffee-shop-sandbox" beforeDir="false" afterPath="$PROJECT_DIR$/../coffee-shop-final/coffee-shop-sandbox" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cool-team-project" beforeDir="false" afterPath="$PROJECT_DIR$/../cool-team-project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/answer.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/answers.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/four-queens/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/four-queens/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../github/cv_bank_sandbox" beforeDir="false" afterPath="$PROJECT_DIR$/../github/cv_bank_sandbox" afterDir="false" />
@@ -34,17 +34,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/FindingFirstElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="280">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="n#!!doc;n#swappingWithoutMoving#0;n#Test#0" />
-                <element signature="method#checkingAvailable#0;class#Test#0" />
-                <element signature="method#checkingTwoElementToAvailability#0;class#Test#0" />
-                <element signature="method#fillArray#0;class#Test#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,6 +54,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>[[1, 1], [2, 5], [3, 8], [4, 6], [5, 3], [6, 7], [7, 2], [8, 4]]</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -66,12 +66,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/answers" />
+        <option value="$PROJECT_DIR$/src/MyArrayListComparator.java" />
+        <option value="$PROJECT_DIR$/src/CheckingTwoElements.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/FindingFirstElement.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-265" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1805" />
     <option name="y" value="-8" />
     <option name="width" value="1696" />
     <option name="height" value="1026" />
@@ -82,6 +85,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,8 +103,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,18 +153,19 @@
       <workItem from="1570193638818" duration="114000" />
       <workItem from="1570209630077" duration="2105000" />
       <workItem from="1570309180729" duration="599000" />
-      <workItem from="1570535087785" duration="29108000" />
+      <workItem from="1570535087785" duration="31147000" />
+      <workItem from="1570612242056" duration="4030000" />
+      <workItem from="1570616603518" duration="3393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38660000" />
+    <option name="totallyTimeSpent" value="48122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26222494" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16259168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -170,7 +174,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6026059" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3854506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -196,30 +200,43 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/answers.txt">
+    <entry file="file://$PROJECT_DIR$/src/answers.txt" />
+    <entry file="file://$PROJECT_DIR$/answers.txt" />
+    <entry file="file://$PROJECT_DIR$/answer.txt" />
+    <entry file="file://$PROJECT_DIR$/src/MyArrayListComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="51">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answers.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/CheckingTwoElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/FindingFirstElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="136">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="55" />
           <folding>
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
             <element signature="n#!!doc;n#swappingWithoutMoving#0;n#Test#0" />
-            <element signature="method#checkingAvailable#0;class#Test#0" />
-            <element signature="method#checkingTwoElementToAvailability#0;class#Test#0" />
-            <element signature="method#fillArray#0;class#Test#0" />
+            <element signature="method#swappingWithoutMoving#0;class#Test#0" />
           </folding>
         </state>
       </provider>
