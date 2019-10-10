@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
-public class CheckingTwoElements {
-    public static boolean checkingTwoElementToAvailability(ArrayList<Integer> arr1, ArrayList<Integer> arr2) {
+public interface CheckingTwoElements {
+    static boolean checkingTwoElementToAvailability(ArrayList<Integer> arr1, ArrayList<Integer> arr2) {
         Integer one = arr2.get(0) - arr1.get(0);
         Integer two = arr2.get(1) - arr1.get(1);
         if (two < 0) two = two * -1;

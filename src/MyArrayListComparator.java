@@ -3,6 +3,7 @@ import java.util.Comparator;
 
 public class MyArrayListComparator implements Comparator<ArrayList> {
 
+    //This method working nor correct
     @Override
     public int compare(ArrayList o1, ArrayList o2) {
         int firstFirst = (int) o1.get(0);
