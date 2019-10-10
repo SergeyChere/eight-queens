@@ -8,8 +8,8 @@ public class Test {
 
     public static void main(String[] args) {
         list = FindingFirstElement.findingFirstElement(length);
-//        System.out.println(Arrays.deepToString(list.toArray()));
-//        swappingWithoutMoving(list);
+        System.out.println("fill array: "+Arrays.deepToString(list.toArray()));
+        swappingWithoutMoving(list);
 //        System.out.println("------------------------------- END");
 //        System.out.println(Arrays.deepToString(map.toArray()));
     }
@@ -25,7 +25,7 @@ public class Test {
     1 2 3
      */
     public static void swappingWithoutMoving(ArrayList<ArrayList<Integer>> list) {
-        System.out.println("   main: "+Arrays.deepToString(list.toArray()));
+        System.out.println("      main: "+Arrays.deepToString(list.toArray()));
         System.out.println("------------------------------- BEGIN");
         int counter = 0;
         boolean flag = false;
@@ -58,7 +58,7 @@ public class Test {
 //                        for (int g = 0; g<list.size(); g++) {
 //                            map.add(list.get(g));
 //                        }
-                        System.out.println(" answer: "+Arrays.deepToString(list.toArray()));
+                        System.out.println("    answer: "+Arrays.deepToString(list.toArray()));
                     } else {
 //                            System.out.println("variant: "+Arrays.deepToString(list.toArray()));
                     }

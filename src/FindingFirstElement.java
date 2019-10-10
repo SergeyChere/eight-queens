@@ -6,30 +6,49 @@ public class FindingFirstElement {
     public static ArrayList<ArrayList<Integer>> longList = new ArrayList<>();
 
     public static ArrayList<ArrayList<Integer>> findingFirstElement(int length) {
-        ArrayList<Integer> firstTempShortArray = new ArrayList<>();
-
-        for (int i = 0; i<length; i++) {
-            if (longList.isEmpty()) {
-                longList.add(new ArrayList<>(Arrays.asList(i+1, i+1)));
+        boolean flag = true;
+        if (longList.isEmpty()) {
+            longList.add(new ArrayList<>(Arrays.asList(1, 1)));
+        }
+        for (int i = 1; flag; i++) {
+            if (longList.size() == length) {
+                flag = false;
             }
-            for (int j = 0; j<length; j++) {
-                ArrayList<Integer> secondTempShortArray = new ArrayList<>();
+            for (int j = 1; j<=length; j++) {
+//                if (i >= length && j >= length) {
+//                    System.out.println("Here something wrong!");
+//                }
                 if (i == j) {
-                    j++;
+                    j=j;
                 }
-                secondTempShortArray.add(i + 1);
-                secondTempShortArray.add(j + 1);
-
-                System.out.println(Arrays.deepToString(longList.toArray()));
-                System.out.println(Arrays.deepToString(secondTempShortArray.toArray()));
-                System.out.println(CheckingTwoElements.checkingTwoElementToAvailability(longList.get(i), secondTempShortArray));
-                if (CheckingTwoElements.checkingTwoElementToAvailability(longList.get(i), secondTempShortArray)) {
-                    longList.add(secondTempShortArray);
-                    System.out.println(Arrays.deepToString(longList.toArray()));
-                    break;
+                if (checkingAllVariantsInMainArray(longList, new ArrayList<>(Arrays.asList(i+1, j)))) {
+                    if (longList.get(longList.size()-1).get(0).equals(i)) {
+                        longList.add(new ArrayList<>(Arrays.asList(i+1, j)));
+                    }
+                    else {
+                        i = longList.get(longList.size()-1).get(0);
+                        j = longList.get(longList.size()-1).get(1);
+                        longList.remove(longList.size()-1);
+                        if (j == length) {
+                            i++;
+                            j=1;
+                        } else {
+                            i--;
+                        }
+                    }
                 }
             }
         }
         return longList;
+    }
+
+    public static boolean checkingAllVariantsInMainArray(ArrayList<ArrayList<Integer>> mainArray, ArrayList<Integer> newArray) {
+        int counter = 0;
+        for (ArrayList<Integer> arr : longList) {
+            if (CheckingTwoElements.checkingTwoElementToAvailability(arr, newArray)) {
+                counter++;
+            }
+        }
+        return true ? counter == longList.size() : false;
     }
 }
