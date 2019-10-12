@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class NotCorrectSwapping {
+public interface FindingAvailableAnswersByNOTCorrectSwapping {
 
     /*
     This's method that iterate an array for availability by swapping every element like:
@@ -13,9 +13,9 @@ public class NotCorrectSwapping {
     <-> 3 2 1 <->
     1 2 3
      */
-    public static void swappingWithoutMoving(ArrayList<ArrayList<Integer>> list) {
-        System.out.println("      main: "+ Arrays.deepToString(list.toArray()));
-        System.out.println("------------------------------- BEGIN");
+    static void swappingWithoutMoving(ArrayList<ArrayList<Integer>> list) {
+        System.out.println("  main: "+ Arrays.deepToString(list.toArray()));
+//        System.out.println("------------------------------- BEGIN");
         int counter = 0;
         boolean flag = false;
 
@@ -42,12 +42,8 @@ public class NotCorrectSwapping {
                     list.get(j).remove(1);
 
                     list.get(j).add(num);
-                    if (checkingAvailable(list)) {
-//                        Adding to TreeSet not working
-//                        for (int g = 0; g<list.size(); g++) {
-//                            map.add(list.get(g));
-//                        }
-                        System.out.println("    answer: "+Arrays.deepToString(list.toArray()));
+                    if (CheckingAvailability.checkingAvailabilityOfDoubleArrayList(list)) {
+                        AddingRightAnswerToTree.addToTree(list);
                     } else {
 //                            System.out.println("variant: "+Arrays.deepToString(list.toArray()));
                     }
@@ -59,18 +55,5 @@ public class NotCorrectSwapping {
                 counter=counter++;
             }
         }
-    }
-
-    public static boolean checkingAvailable(ArrayList<ArrayList<Integer>> list) {
-        int counter = 0;
-        for (int i = 0; i<list.size(); i++) {
-            for (int j = 0; j<list.size(); j++) {
-                if (CheckingTwoElements.checkingTwoElementToAvailability(list.get(i), list.get(j)) == false && !list.get(i).equals(list.get(j))) {
-                    counter++;
-                }
-            }
-        }
-        if (counter != 0) return false;
-        return true;
     }
 }

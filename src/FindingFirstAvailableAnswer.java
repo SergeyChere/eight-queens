@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class FindingFirstElement {
+public class FindingFirstAvailableAnswer {
 
     public static ArrayList<ArrayList<Integer>> longList = new ArrayList<>();
 
@@ -21,7 +21,7 @@ public class FindingFirstElement {
                 if (i == j) {
                     j=j;
                 }
-                if (checkingAllVariantsInMainArray(longList, new ArrayList<>(Arrays.asList(i+1, j)))) {
+                if (CheckingAvailability.checkingAllVariantsInMainArray(longList, new ArrayList<>(Arrays.asList(i+1, j)))) {
                     if (longList.get(longList.size()-1).get(0).equals(i)) {
                         longList.add(new ArrayList<>(Arrays.asList(i+1, j)));
                     }
@@ -40,15 +40,5 @@ public class FindingFirstElement {
             }
         }
         return longList;
-    }
-
-    public static boolean checkingAllVariantsInMainArray(ArrayList<ArrayList<Integer>> mainArray, ArrayList<Integer> newArray) {
-        int counter = 0;
-        for (ArrayList<Integer> arr : longList) {
-            if (CheckingTwoElements.checkingTwoElementToAvailability(arr, newArray)) {
-                counter++;
-            }
-        }
-        return true ? counter == longList.size() : false;
     }
 }
