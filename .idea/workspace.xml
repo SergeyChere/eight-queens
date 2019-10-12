@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b08d9dda-4e5e-416a-9c24-70afb44a7af4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AddingRightAnswerToTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CheckingAvailability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FindingAvailableAnswersByAddingToEveryElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllAnswersHardlyAdded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindingAvailableAnswersByMovingSecondElementOfArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Andrey/contact-book" beforeDir="false" afterPath="$PROJECT_DIR$/../Andrey/contact-book" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ED/java-1h-angular-fullstack" beforeDir="false" afterPath="$PROJECT_DIR$/../ED/java-1h-angular-fullstack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pasha/Contact_project" beforeDir="false" afterPath="$PROJECT_DIR$/../Pasha/Contact_project" afterDir="false" />
@@ -12,13 +11,12 @@
       <change beforePath="$PROJECT_DIR$/../coffee-shop-final/coffee-shop-sandbox" beforeDir="false" afterPath="$PROJECT_DIR$/../coffee-shop-final/coffee-shop-sandbox" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cool-team-project" beforeDir="false" afterPath="$PROJECT_DIR$/../cool-team-project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/four-queens/CheckingTwoElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/four-queens/FindingFirstElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/four-queens/NotCorrectSwapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/four-queens/AddingRightAnswerToTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/four-queens/AddingRightAnswerToTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/four-queens/FindingAvailableAnswersByAddingToEveryElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/four-queens/FindingAvailableAnswersByAddingToEveryElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/four-queens/FindingAvailableAnswersByNOTCorrectSwapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/four-queens/FindingAvailableAnswersByNOTCorrectSwapping.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/four-queens/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/four-queens/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CheckingTwoElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindingFirstElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindingFirstAvailableAnswer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotCorrectSwapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindingAvailableAnswersByNOTCorrectSwapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddingRightAnswerToTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddingRightAnswerToTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindingAvailableAnswersByAddingToEveryElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindingAvailableAnswersByAddingToEveryElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../github/cv_bank_sandbox" beforeDir="false" afterPath="$PROJECT_DIR$/../github/cv_bank_sandbox" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../github/security-developer" beforeDir="false" afterPath="$PROJECT_DIR$/../github/security-developer" afterDir="false" />
@@ -42,20 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FindingAvailableAnswersByNOTCorrectSwapping.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -87,16 +73,18 @@
         <option value="$PROJECT_DIR$/src/CheckingAvailability.java" />
         <option value="$PROJECT_DIR$/src/FindingFirstElement.java" />
         <option value="$PROJECT_DIR$/src/AddingToEveryElement.java" />
-        <option value="$PROJECT_DIR$/src/FindingAvailableAnswersByAddingToEveryElement.java" />
-        <option value="$PROJECT_DIR$/src/AddingRightAnswerToTree.java" />
         <option value="$PROJECT_DIR$/src/MyArrayListComparator.java" />
         <option value="$PROJECT_DIR$/src/FindingAvailableAnswersByNOTCorrectSwapping.java" />
+        <option value="$PROJECT_DIR$/src/AllAnswersHardlyAdded.java" />
+        <option value="$PROJECT_DIR$/src/AddingRightAnswerToTree.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/FindingAvailableAnswersByAddingToEveryElement.java" />
+        <option value="$PROJECT_DIR$/src/FindingAvailableAnswersByMovingSecondElementOfArray.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-169" />
+    <option name="x" value="104" />
     <option name="y" value="-8" />
     <option name="width" value="1696" />
     <option name="height" value="1026" />
@@ -107,7 +95,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,11 +103,16 @@
               <item name="four-queens" type="b2602c69:ProjectViewProjectNode" />
               <item name="four-queens" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="four-queens" type="b2602c69:ProjectViewProjectNode" />
+              <item name="four-queens" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -129,6 +122,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,16 +171,18 @@
       <workItem from="1570688459896" duration="365000" />
       <workItem from="1570739443876" duration="3312000" />
       <workItem from="1570909378117" duration="3548000" />
+      <workItem from="1570913206670" duration="7726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65676000" />
+    <option name="totallyTimeSpent" value="73402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21699266" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21943766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -195,7 +191,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8469055" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24212812" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44842562" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -224,16 +220,6 @@
     <entry file="file://$PROJECT_DIR$/src/answers.txt" />
     <entry file="file://$PROJECT_DIR$/answers.txt" />
     <entry file="file://$PROJECT_DIR$/answer.txt" />
-    <entry file="file://$PROJECT_DIR$/src/AddingRightAnswerToTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CheckingAvailability.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -251,16 +237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindingAvailableAnswersByAddingToEveryElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc;n#addingElements#0;n#AddingToEveryElement#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FindingFirstAvailableAnswer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -274,7 +250,44 @@
     <entry file="file://$PROJECT_DIR$/src/FindingAvailableAnswersByNOTCorrectSwapping.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AllAnswersHardlyAdded.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3937">
+          <caret line="250" column="32" selection-start-line="250" selection-start-column="32" selection-end-line="250" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddingRightAnswerToTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindingAvailableAnswersByAddingToEveryElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindingAvailableAnswersByMovingSecondElementOfArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -283,8 +296,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        <state relative-caret-position="374">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
         </state>
       </provider>
     </entry>

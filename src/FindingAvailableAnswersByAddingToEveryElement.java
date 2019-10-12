@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public interface FindingAvailableAnswersByAddingToEveryElement {
 
@@ -9,6 +10,8 @@ public interface FindingAvailableAnswersByAddingToEveryElement {
     1,3 2,1 3,2
      */
     static void addingElements(ArrayList<ArrayList<Integer>> list, int length) {
+        Integer checking = list.get(0).get(1);
+
         for (int i = 0; i < length; i++) {
             for (ArrayList<Integer> arr: list) {
                 Integer get1 = arr.get(1)+1;
@@ -19,7 +22,10 @@ public interface FindingAvailableAnswersByAddingToEveryElement {
                 arr.add(get1);
             }
             if (CheckingAvailability.checkingAvailabilityOfDoubleArrayList(list)) {
-                AddingRightAnswerToTree.addToTree(list);
+//                AddingRightAnswerToTree.addToTree(list);
+                if (!list.get(0).get(1).equals(checking)) {
+                    System.out.println("  answer: "+Arrays.deepToString(list.toArray()));
+                }
             }
         }
     }
