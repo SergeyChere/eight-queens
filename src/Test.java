@@ -6,10 +6,16 @@ public class Test {
     public static ArrayList<ArrayList<Integer>> list = new ArrayList<>();
 
     public static void main(String[] args) {
+        //FIRST ELEMENT
         list = FindingFirstAvailableAnswer.findingFirstElement(length);
+        System.out.println("   main: "+Arrays.deepToString(list.toArray()));
+        //ROLLING
         FindingAvailableAnswersByRollingBoard.rollingBoard(list, length);
+        //HORIZONTAL MIRROR
+        FindingAvailableAnswersByMirrorBoard.horizontalMirrorBoard(list, length);
 
-        //ADDING
+//        AddingRightAnswerToArray.printArray();
+//        //ADDING
 //        int counter = 1;
 //        for (ArrayList<ArrayList<Integer>> list: AllAnswersHardlyAdded.fillingArray()) {
 //            System.out.println("********************** "+counter+" ************************");
@@ -24,8 +30,7 @@ public class Test {
 //            System.out.println();
 //            counter++;
 //        }
-
-        //SWAPPING
+//        //SWAPPING
 //        System.out.println("------------------- SWAPPING ---------------------------");
 //        FindingAvailableAnswersByNOTCorrectSwapping.swappingWithoutMoving(list);
     }

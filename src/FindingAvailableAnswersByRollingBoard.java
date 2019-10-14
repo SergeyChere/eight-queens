@@ -16,7 +16,7 @@ public interface FindingAvailableAnswersByRollingBoard {
                 list.get(i-1).add(element);
             }
             if (CheckingAvailability.checkingAvailabilityOfDoubleArrayList(list)) {
-                System.out.println("    Rolled: "+ Arrays.deepToString(list.toArray()));
+                System.out.println("rolling: "+Arrays.deepToString(list.toArray()));
             }
         }
     }

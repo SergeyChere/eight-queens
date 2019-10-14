@@ -22,7 +22,7 @@ public interface FindingAvailableAnswersByAddingToEveryElement {
                 arr.add(get1);
             }
             if (CheckingAvailability.checkingAvailabilityOfDoubleArrayList(list)) {
-//                AddingRightAnswerToTree.addToTree(list);
+//                AddingRightAnswerToArray.addOneArrayToLongArray(list);
                 if (!list.get(0).get(1).equals(checking)) {
                     System.out.println("  answer: "+Arrays.deepToString(list.toArray()));
                 }

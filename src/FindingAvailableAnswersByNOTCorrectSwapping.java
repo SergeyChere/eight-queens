@@ -43,7 +43,7 @@ public interface FindingAvailableAnswersByNOTCorrectSwapping {
 
                     list.get(j).add(num);
                     if (CheckingAvailability.checkingAvailabilityOfDoubleArrayList(list)) {
-                        AddingRightAnswerToTree.addToTree(list);
+                        AddingRightAnswerToArray.addOneArrayToLongArray(list);
                     } else {
 //                            System.out.println("variant: "+Arrays.deepToString(list.toArray()));
                     }
