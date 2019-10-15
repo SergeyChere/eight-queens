@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b08d9dda-4e5e-416a-9c24-70afb44a7af4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FindingAvailableAnswersByMirrorBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Andrey/contact-book" beforeDir="false" afterPath="$PROJECT_DIR$/../Andrey/contact-book" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ED/java-1h-angular-fullstack" beforeDir="false" afterPath="$PROJECT_DIR$/../ED/java-1h-angular-fullstack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pasha/Contact_project" beforeDir="false" afterPath="$PROJECT_DIR$/../Pasha/Contact_project" afterDir="false" />
@@ -10,13 +10,7 @@
       <change beforePath="$PROJECT_DIR$/../coffee-shop-final/coffee-shop-sandbox" beforeDir="false" afterPath="$PROJECT_DIR$/../coffee-shop-final/coffee-shop-sandbox" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cool-team-project" beforeDir="false" afterPath="$PROJECT_DIR$/../cool-team-project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/four-queens/AddingRightAnswerToTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/four-queens/FindingAvailableAnswersByNOTCorrectSwapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/four-queens/FindingAvailableAnswersByNOTCorrectSwapping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/four-queens/FindingAvailableAnswersByRollingBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/four-queens/FindingAvailableAnswersByRollingBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/four-queens/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/four-queens/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddingRightAnswerToTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddingRightAnswerToArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindingAvailableAnswersByAddingToEveryElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindingAvailableAnswersByAddingToEveryElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindingAvailableAnswersByNOTCorrectSwapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindingAvailableAnswersByNOTCorrectSwapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindingAvailableAnswersByMirrorBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindingAvailableAnswersByMirrorBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FindingAvailableAnswersByRollingBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindingAvailableAnswersByRollingBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../github/cv_bank_sandbox" beforeDir="false" afterPath="$PROJECT_DIR$/../github/cv_bank_sandbox" afterDir="false" />
@@ -36,22 +30,35 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/Test.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="136">
+                    <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/FindingAvailableAnswersByMirrorBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FindingAvailableAnswersByRollingBoard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="595">
+              <caret line="35" column="80" selection-start-line="35" selection-start-column="80" selection-end-line="35" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +97,8 @@
         <option value="$PROJECT_DIR$/src/FindingAvailableAnswersByMovingSecondElementOfArray.java" />
         <option value="$PROJECT_DIR$/src/AddingRightAnswerToTree.java" />
         <option value="$PROJECT_DIR$/src/AddingRightAnswerToArray.java" />
-        <option value="$PROJECT_DIR$/src/FindingAvailableAnswersByMirrorBoard.java" />
         <option value="$PROJECT_DIR$/src/FindingAvailableAnswersByRollingBoard.java" />
+        <option value="$PROJECT_DIR$/src/FindingAvailableAnswersByMirrorBoard.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
       </list>
     </option>
@@ -108,8 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,6 +131,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,18 +192,19 @@
       <workItem from="1570739443876" duration="3312000" />
       <workItem from="1570909378117" duration="3548000" />
       <workItem from="1570913206670" duration="7726000" />
-      <workItem from="1571086773034" duration="8155000" />
+      <workItem from="1571086773034" duration="8632000" />
+      <workItem from="1571130165858" duration="386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81557000" />
+    <option name="totallyTimeSpent" value="82420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22188264" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22432762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -205,7 +213,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37785017" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17155266" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44842562" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -264,30 +272,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AllAnswersHardlyAdded.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3937">
-          <caret line="250" column="32" selection-start-line="250" selection-start-column="32" selection-end-line="250" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FindingAvailableAnswersByMovingSecondElementOfArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindingAvailableAnswersByAddingToEveryElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -301,6 +289,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AllAnswersHardlyAdded.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="250" column="32" selection-start-line="250" selection-start-column="32" selection-end-line="250" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindingAvailableAnswersByAddingToEveryElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AddingRightAnswerToArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -311,27 +319,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindingAvailableAnswersByMirrorBoard.java">
+    <entry file="file://$PROJECT_DIR$/src/FindingAvailableAnswersByRollingBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindingAvailableAnswersByRollingBoard.java">
+    <entry file="file://$PROJECT_DIR$/src/FindingAvailableAnswersByMirrorBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="595">
+          <caret line="35" column="80" selection-start-line="35" selection-start-column="80" selection-end-line="35" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>

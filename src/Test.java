@@ -9,10 +9,12 @@ public class Test {
         //FIRST ELEMENT
         list = FindingFirstAvailableAnswer.findingFirstElement(length);
         System.out.println("   main: "+Arrays.deepToString(list.toArray()));
-        //ROLLING
-        FindingAvailableAnswersByRollingBoard.rollingBoard(list, length);
+//        //ROLLING
+//        FindingAvailableAnswersByRollingBoard.rollingBoard(list, length);
         //HORIZONTAL MIRROR
         FindingAvailableAnswersByMirrorBoard.horizontalMirrorBoard(list, length);
+        //VERTICAL MIRROR
+//        FindingAvailableAnswersByMirrorBoard.verticalMirrorBoard(list, length);
 
 //        AddingRightAnswerToArray.printArray();
 //        //ADDING

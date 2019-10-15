@@ -3,6 +3,11 @@ import java.util.Arrays;
 
 public interface FindingAvailableAnswersByRollingBoard {
 
+    /*
+     This's method that rolling a board at 90, 180, 270 degrees and check it for availability like:
+    1,1 2,2 3,3 4,4
+    1,4 2,3 3,2 4,1
+     */
     static void rollingBoard(ArrayList<ArrayList<Integer>> list, int length) {
         for (int sides = 0; sides<3; sides++) {
             ArrayList<Integer> tempArray = new ArrayList<>();
