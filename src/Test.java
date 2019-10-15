@@ -8,32 +8,30 @@ public class Test {
     public static void main(String[] args) {
         //FIRST ELEMENT
         list = FindingFirstAvailableAnswer.findingFirstElement(length);
-        System.out.println("   main: "+Arrays.deepToString(list.toArray()));
 //        //ROLLING
 //        FindingAvailableAnswersByRollingBoard.rollingBoard(list, length);
         //HORIZONTAL MIRROR
-        FindingAvailableAnswersByMirrorBoard.horizontalMirrorBoard(list, length);
+//        FindingAvailableAnswersByMirrorBoard.horizontalMirrorBoard(list, length);
         //VERTICAL MIRROR
 //        FindingAvailableAnswersByMirrorBoard.verticalMirrorBoard(list, length);
+        //ADDING
+//        FindingAvailableAnswersByAddingToEveryElement.addingElements(list, length);
+        //MOVING
+//        FindingAvailableAnswersByMovingSecondElementOfArray.movingElement(list, length);
 
-//        AddingRightAnswerToArray.printArray();
-//        //ADDING
+
+        // TEST ALL ANSWERS
 //        int counter = 1;
 //        for (ArrayList<ArrayList<Integer>> list: AllAnswersHardlyAdded.fillingArray()) {
-//            System.out.println("********************** "+counter+" ************************");
-////            if (!CheckingAvailability.checkingAvailabilityOfDoubleArrayList(list)) {
-////                System.out.println("WRONG ARRAY: "+Arrays.deepToString(list.toArray()));
-////            }
-//            System.out.println("to check: "+Arrays.deepToString(list.toArray()));
-//            System.out.println("------------------- ADDING ---------------------------");
+//            if (!CheckingAvailability.checkingAvailabilityOfDoubleArrayList(list)) {
+//                System.out.println("WRONG ARRAY: "+Arrays.deepToString(list.toArray()));
+//            }
 //            FindingAvailableAnswersByAddingToEveryElement.addingElements(list, length);
-//            System.out.println("------------------- MOVING ---------------------------");
 //            FindingAvailableAnswersByMovingSecondElementOfArray.movingElement(list, length);
-//            System.out.println();
 //            counter++;
 //        }
-//        //SWAPPING
-//        System.out.println("------------------- SWAPPING ---------------------------");
+
+        //SWAPPING - NOT CORRECT
 //        FindingAvailableAnswersByNOTCorrectSwapping.swappingWithoutMoving(list);
     }
 }
