@@ -19,6 +19,8 @@ public class Test {
         //MOVING
 //        FindingAvailableAnswersByMovingSecondElementOfArray.movingElement(list, length);
 
+        //PRETTY LOOK - SHOULD BE ADDED AFTER ALL METHODS TO ADDING TO MAIN ARRAY CLASS
+        MakingPrettyVisualLookAnswers.makingVisualLook(list);
 
         // TEST ALL ANSWERS
 //        int counter = 1;

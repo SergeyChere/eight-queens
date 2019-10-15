@@ -27,7 +27,7 @@ public interface CheckingAvailability {
     }
 
     //Rename!
-    static boolean checkingAllVariantsInMainArray(ArrayList<ArrayList<Integer>> mainArray, ArrayList<Integer> newArray) {
+    static boolean checkingAllVariantsInMainArrayForMethodFindingFirst(ArrayList<ArrayList<Integer>> mainArray, ArrayList<Integer> newArray) {
         int counter = 0;
         for (ArrayList<Integer> arr : mainArray) {
             if (CheckingAvailability.checkingAvailabilityOfTwoArrayLists(arr, newArray)) {

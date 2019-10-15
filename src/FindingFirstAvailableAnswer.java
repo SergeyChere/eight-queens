@@ -21,7 +21,7 @@ public class FindingFirstAvailableAnswer {
                 if (i == j) {
                     j=j;
                 }
-                if (CheckingAvailability.checkingAllVariantsInMainArray(longList, new ArrayList<>(Arrays.asList(i+1, j)))) {
+                if (CheckingAvailability.checkingAllVariantsInMainArrayForMethodFindingFirst(longList, new ArrayList<>(Arrays.asList(i+1, j)))) {
                     if (longList.get(longList.size()-1).get(0).equals(i)) {
                         longList.add(new ArrayList<>(Arrays.asList(i+1, j)));
                     }
